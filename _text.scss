@@ -1,0 +1,16 @@
+@import "_variables.scss";
+
+.text{
+    background-image: url(/killme.jpg);
+    background-position: center;
+    color: transparent;
+    font-size: 8rem;
+    -webkit-background-clip: text;
+    transition: all 0.3s;
+}
+
+.text:hover{
+    transform: skewY(-10deg);
+    letter-spacing: 2rem;
+
+}

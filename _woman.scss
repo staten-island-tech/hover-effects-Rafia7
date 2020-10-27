@@ -1,0 +1,13 @@
+@import "_variables.scss";
+
+.woman{
+    height: 20rem;
+    transition: all 0.3s;
+    border-radius: 50%;
+}
+
+.woman:hover{
+    border: 0;
+    filter: grayscale(100%);
+    transform: scale(1.3);
+}
