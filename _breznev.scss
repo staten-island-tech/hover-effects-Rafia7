@@ -1,0 +1,33 @@
+@import "_variables.scss";
+
+.breznev{
+    height: 30rem;
+    position: relative;
+}
+.breznev-pic{
+    height: 30rem;
+    transform: all 0.3s;
+
+}
+
+.breznev-header{
+    font-size: 3rem;
+    opacity: 0;
+    color: white;
+
+    transition: all 0.3s;
+    text-transform: uppercase;
+    position: absolute;
+    top: 100%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+.breznev:hover .breznev-pic{
+    filter: grayscale(90%);
+
+}
+
+.breznev:hover .breznev-header{
+    opacity: 1;
+    top: 50%;
+}

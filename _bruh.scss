@@ -1,0 +1,43 @@
+@import "_variables.scss";
+.bruh-parent{
+    width: 60rem;
+    height: 40rem;
+}
+.bruh-collection{
+    margin: 3rem;
+    position: relative;
+}
+
+.bruh{
+    position: absolute;
+    height: 20rem;
+    box-shadow: 0 1.5rem 1rem rgba(0,0,0,0.4);
+    transition: all 0.3%;
+    outline-offset: 1rem;
+}
+.bruh:hover{
+    transform: scale(1.1,1.1);
+    box-shadow: 0 3rem 1rem rgba(0,0,0,0.4);
+    outline: 1rem solid goldenrod;
+    z-index: 2;
+}
+
+.bruh-collection:hover .bruh:not(:hover){
+    transform: scale(0.8);
+    opacity: 0.3;
+}
+
+.bruh1{
+    top: 10rem;
+    left: 40%;
+}
+
+.bruh2{
+    top: 2rem;
+    left: 15rem;
+    position: absolute;
+}
+.bruh3{
+    top: 7rem;
+    left: 0;
+}
