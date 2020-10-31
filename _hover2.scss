@@ -1,0 +1,17 @@
+@import "_variables.scss";
+
+.hover2{
+    height: 10rem;
+    transition: all 0.3s;
+    border-radius: 50%;
+}
+
+.hover2:hover{
+    border: 0;
+    filter: sepia();
+    transform: scale(.5);
+}
+
+
+
+

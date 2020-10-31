@@ -1,0 +1,12 @@
+@import "_variables.scss";
+
+.hover4{
+    transform: scale(.6);
+    border-radius: 4rem;
+}
+
+.hover4:hover{
+    filter: blur(5px);
+    transform: scale(.8);
+    border: goldenrod solid 1rem;
+}

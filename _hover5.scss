@@ -1,0 +1,22 @@
+@import "_variables.scss";
+
+.hover5{
+    border: solid goldenrod .5rem;
+    background-image: url(/nun-with-handgun-isolated-on-white-EPF1YW.jpg);
+    border-radius: 4rem;
+    transition: all 0.3s;
+    position: relative;
+    padding-left: 1rem;
+    padding-right: 1rem;
+    text-transform: uppercase;
+    text-decoration: none;
+}
+
+.hover5:hover{
+    background-image: none;
+    background-color: red ;
+    transform: rotate(45deg);
+    text-transform: uppercase;
+    text-decoration: none;
+    
+}

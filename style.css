@@ -1,62 +1,152 @@
+html,
+body {
+  font-size: 62.5;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+  background-color: pink;
+}
+
+html,
+body {
+  font-size: 62.5;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+  background-color: pink;
+}
+
 .btn,
 .btn:link,
 .btn:visited {
   text-transform: uppercase;
   text-decoration: none;
-  padding: 1.5rem 4rem;
+  padding: 0.5rem 1rem;
   background-color: red;
   margin: 1rem auto;
-  font-size: 2rem;
-  border-radius: 10rem;
+  font-size: 1rem;
   -webkit-transition: all 0.3s;
   transition: all 0.3s;
   position: relative;
-}
-
-.btn-red {
-  background-color: color(red);
-  color: white;
-  -webkit-transition: all;
-  transition: all;
+  border-radius: 2rem;
 }
 
 .btn:hover {
-  -webkit-transform: translateY(-2px);
-          transform: translateY(-2px);
-  -webkit-box-shadow: 0px 10px 0.5rem rgba(0, 0, 0, 0.6);
-          box-shadow: 0px 10px 0.5rem rgba(0, 0, 0, 0.6);
-}
-
-.btn-red::after {
-  background-color: color(red);
-  color: white;
-}
-
-.btn::after {
-  content: "";
-  display: inline-block;
-  height: 100%;
-  width: 100%;
-  border-radius: 10rem;
-  position: absolute;
-  top: 0;
-  left: 0;
-  z-index: -1;
-  -webkit-transition: all 0.3s;
-  transition: all 0.3s;
-}
-
-.btn:hover::after {
-  -webkit-transform: scaleX(1.5) scaleY(1.6);
-          transform: scaleX(1.5) scaleY(1.6);
-  opacity: 0;
-}
-
-.btn:active {
-  -webkit-transform: translateY(-1px) scaleX(1.5) scaleY(1.6);
-          transform: translateY(-1px) scaleX(1.5) scaleY(1.6);
+  color: #ff7a59;
+  border: #ff7a59 solid 1px;
+  background: #fff;
   -webkit-box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.2);
           box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.2);
+}
+
+html,
+body {
+  font-size: 62.5;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+  background-color: pink;
+}
+
+.hover2 {
+  height: 10rem;
+  -webkit-transition: all 0.3s;
+  transition: all 0.3s;
+  border-radius: 50%;
+}
+
+.hover2:hover {
+  border: 0;
+  -webkit-filter: sepia();
+          filter: sepia();
+  -webkit-transform: scale(0.5);
+          transform: scale(0.5);
+}
+
+html,
+body {
+  font-size: 62.5;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+  background-color: pink;
+}
+
+.hover3:hover {
+  -webkit-box-shadow: 0 0.5em 0.5em -0.4em var(--hover);
+          box-shadow: 0 0.5em 0.5em -0.4em var(--hover);
+  -webkit-transform: translateY(-0.25em);
+          transform: translateY(-0.25em);
+  background-color: red;
+  text-transform: uppercase;
+  text-decoration: none;
+}
+
+.hover3 {
+  background-color: navy;
+  border: goldenrod solid .1rem;
+  margin-top: 1rem;
+  text-decoration: none;
+}
+
+html,
+body {
+  font-size: 62.5;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+  background-color: pink;
+}
+
+.hover4 {
+  -webkit-transform: scale(0.6);
+          transform: scale(0.6);
+  border-radius: 4rem;
+}
+
+.hover4:hover {
+  -webkit-filter: blur(5px);
+          filter: blur(5px);
+  -webkit-transform: scale(0.8);
+          transform: scale(0.8);
+  border: goldenrod solid 1rem;
+}
+
+html,
+body {
+  font-size: 62.5;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+  background-color: pink;
+}
+
+.hover5 {
+  border: solid goldenrod .5rem;
+  background-image: url(/nun-with-handgun-isolated-on-white-EPF1YW.jpg);
+  border-radius: 4rem;
+  -webkit-transition: all 0.3s;
+  transition: all 0.3s;
+  position: relative;
+  padding-left: 1rem;
+  padding-right: 1rem;
+  text-transform: uppercase;
+  text-decoration: none;
+}
+
+.hover5:hover {
+  background-image: none;
+  background-color: red;
+  -webkit-transform: rotate(45deg);
+          transform: rotate(45deg);
+  text-transform: uppercase;
+  text-decoration: none;
 }
 
 .container {

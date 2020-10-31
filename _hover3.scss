@@ -1,0 +1,17 @@
+@import "_variables.scss";
+
+.hover3:hover {
+  box-shadow: 0 0.5em 0.5em -0.4em var(--hover);
+  transform: translateY(-0.25em);
+  background-color: red;
+  text-transform: uppercase;
+  text-decoration: none;
+}
+
+.hover3{
+    background-color: navy;
+    border: goldenrod solid .1rem;
+    margin-top: 1rem;
+    text-decoration: none;
+
+}
